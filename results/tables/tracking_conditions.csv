@@ -1,0 +1,49 @@
+,,joint error (mm),hidden-joint error (mm),acceleration error (m/s²),rotation error (deg),contact F1
+clean,interpolation,0.0,,0.0,,
+clean,"3D, single frame",14.18,,0.88,7.7,0.96
+clean,"3D, causal",22.29,,1.89,9.6,0.97
+clean,"3D, offline",15.95,,1.72,8.31,0.98
+clean,"2D, causal",48.25,,2.03,10.22,0.96
+clean,"2D, offline",40.24,,2.02,9.84,0.97
+noise,interpolation,23.94,,52.8,,
+noise,"3D, single frame",17.66,,21.93,8.02,0.96
+noise,"3D, causal",22.69,,3.01,9.62,0.97
+noise,"3D, offline",16.36,,1.93,8.34,0.98
+noise,"2D, causal",48.91,,3.07,10.26,0.96
+noise,"2D, offline",40.87,,2.25,9.88,0.97
+leg hidden 0.5 s,interpolation,0.9,31.77,0.12,,
+leg hidden 0.5 s,"3D, single frame",15.85,68.54,1.59,7.84,0.96
+leg hidden 0.5 s,"3D, causal",23.26,49.69,2.05,9.66,0.97
+leg hidden 0.5 s,"3D, offline",16.79,38.32,1.8,8.39,0.98
+leg hidden 0.5 s,"2D, causal",49.82,78.3,2.18,10.28,0.96
+leg hidden 0.5 s,"2D, offline",41.67,66.45,2.11,9.89,0.97
+leg hidden 1 s,interpolation,3.57,62.76,0.22,,
+leg hidden 1 s,"3D, single frame",17.55,69.35,1.66,7.97,0.95
+leg hidden 1 s,"3D, causal",24.59,57.26,2.07,9.76,0.97
+leg hidden 1 s,"3D, offline",18.1,47.09,1.82,8.49,0.97
+leg hidden 1 s,"2D, causal",51.04,82.81,2.19,10.36,0.96
+leg hidden 1 s,"2D, offline",43.04,71.93,2.13,9.97,0.97
+leg hidden 2 s,interpolation,9.18,80.79,0.39,,
+leg hidden 2 s,"3D, single frame",20.89,69.0,1.75,8.23,0.94
+leg hidden 2 s,"3D, causal",27.32,62.68,2.1,9.95,0.96
+leg hidden 2 s,"3D, offline",20.78,52.13,1.86,8.71,0.97
+leg hidden 2 s,"2D, causal",53.63,87.16,2.22,10.52,0.95
+leg hidden 2 s,"2D, offline",46.06,76.31,2.17,10.14,0.96
+lower body hidden 1 s,interpolation,7.21,63.42,0.44,,
+lower body hidden 1 s,"3D, single frame",22.62,88.79,2.44,8.34,0.93
+lower body hidden 1 s,"3D, causal",27.82,66.53,2.32,9.93,0.96
+lower body hidden 1 s,"3D, offline",20.65,52.86,1.96,8.65,0.97
+lower body hidden 1 s,"2D, causal",53.55,91.73,2.38,10.52,0.95
+lower body hidden 1 s,"2D, offline",45.04,79.83,2.26,10.11,0.96
+30% joints missing,interpolation,0.65,2.15,1.2,,
+30% joints missing,"3D, single frame",24.65,38.8,41.78,8.97,0.95
+30% joints missing,"3D, causal",25.11,26.41,4.66,9.76,0.97
+30% joints missing,"3D, offline",17.77,18.63,2.95,8.48,0.98
+30% joints missing,"2D, causal",52.34,52.96,4.54,10.42,0.96
+30% joints missing,"2D, offline",43.24,43.66,3.37,9.97,0.97
+frame drops,interpolation,0.86,5.49,0.58,,
+frame drops,"3D, single frame",39.98,179.43,21.47,9.67,0.94
+frame drops,"3D, causal",24.52,31.4,4.17,9.71,0.97
+frame drops,"3D, offline",17.12,20.69,2.59,8.37,0.98
+frame drops,"2D, causal",50.1,53.17,3.64,10.32,0.96
+frame drops,"2D, offline",41.29,43.26,2.73,9.87,0.97

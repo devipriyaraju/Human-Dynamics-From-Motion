@@ -1,0 +1,8 @@
+,root error (cm),foot slide (cm/s),foot velocity error in contact (cm/s)
+"drifted, no correction",5.55,9.05,
+true pose + true contact,2.27,2.88,
+true pose + tracked contact,2.9,3.17,
+"3D, causal: tracked pose + tracked contact",7.31,8.99,10.79
+"3D, causal: same, visible feet only",5.33,8.2,
+"3D, offline: tracked pose + tracked contact",5.05,6.83,7.76
+"3D, offline: same, visible feet only",3.84,6.22,

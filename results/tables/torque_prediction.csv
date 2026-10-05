@@ -1,0 +1,4 @@
+,vertical GRF RMSE (BW),3D GRF RMSE (BW),ankle RMSE (N·m/kg),ankle error / range (%),ankle correlation,knee RMSE (N·m/kg),knee error / range (%),knee correlation,hip RMSE (N·m/kg),hip error / range (%),hip correlation
+training mean,0.306,0.312,0.305,25.598,0.35,0.335,27.701,-0.196,0.433,19.28,0.446
+single frame,0.109,0.113,0.136,11.428,0.9,0.135,11.166,0.905,0.112,4.962,0.97
+temporal,0.075,0.079,0.12,10.065,0.923,0.126,10.402,0.917,0.105,4.668,0.974

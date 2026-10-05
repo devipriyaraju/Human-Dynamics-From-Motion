@@ -1,0 +1,5 @@
+design,vertical GRF RMSE (BW),ankle RMSE (N m/kg),knee RMSE (N m/kg),hip RMSE (N m/kg)
+torque only,,0.118,0.145,0.135
+shared heads,0.082,0.118,0.157,0.138
+cascade,0.082,0.117,0.152,0.140
+measured force upper bound,,0.103,0.142,0.122

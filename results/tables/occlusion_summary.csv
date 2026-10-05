@@ -1,0 +1,9 @@
+condition,model,vertical GRF RMSE (BW),ankle RMSE (N m/kg),knee RMSE (N m/kg),hip RMSE (N m/kg)
+clean,temporal,0.082,0.120,0.155,0.139
+clean,temporal corruption-trained,0.107,0.148,0.197,0.170
+both feet,temporal,0.331,0.340,0.399,0.398
+both feet,temporal corruption-trained,0.152,0.182,0.241,0.196
+lower legs,temporal,0.324,0.351,0.443,0.409
+lower legs,temporal corruption-trained,0.219,0.214,0.326,0.257
+25 mm noise,temporal,0.351,0.350,0.439,0.456
+25 mm noise,temporal corruption-trained,0.113,0.150,0.202,0.172

@@ -1,0 +1,11 @@
+,,vertical GRF RMSE (BW),ankle RMSE (N·m/kg),knee RMSE (N·m/kg),hip RMSE (N·m/kg)
+clean,kinematics only,0.076,0.117,0.125,0.102
+clean,corruption-trained,0.094,0.147,0.173,0.115
+both feet,kinematics only,0.314,0.317,0.335,0.394
+both feet,corruption-trained,0.126,0.175,0.209,0.117
+lower legs,kinematics only,0.319,0.367,0.414,0.415
+lower legs,corruption-trained,0.172,0.232,0.301,0.209
+30% joints missing,kinematics only,0.192,0.222,0.263,0.221
+30% joints missing,corruption-trained,0.11,0.161,0.186,0.13
+25 mm noise,kinematics only,0.325,0.381,0.393,0.455
+25 mm noise,corruption-trained,0.099,0.15,0.175,0.119

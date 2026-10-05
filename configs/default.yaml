@@ -1,0 +1,26 @@
+seed: 0
+fps: 30
+window: 64
+stride: 16
+lowpass_hz: 10.0
+gravity: 9.81
+batch_size: 256
+epochs: 60
+learning_rate: 0.001
+weight_decay: 0.001
+hidden_dim: 256
+force_balance_weight: 1.0
+valid_force_residual_fraction_g: 0.25
+contact_threshold_bw: 0.05
+
+paths:
+  force_dir: data/raw/groundlink/force
+  motion_dir: data/raw/groundlink/moshpp
+  smplh_dir: data/raw/body_models/smplh
+  processed_cache: data/processed/groundlink_id_v4.pt
+  checkpoints_dir: checkpoints
+  results_dir: results
+
+split:
+  validation_subject: s006
+  test_subject: s007

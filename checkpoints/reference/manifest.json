@@ -1,0 +1,30 @@
+{
+  "dyn_tcn.pt": {
+    "task": "ground reaction force and joint torque prediction",
+    "input_channels": 132,
+    "hidden_channels": 256,
+    "output_channels": 24,
+    "temporal_dilations": [1, 2, 4, 8]
+  },
+  "ext_force_balance.pt": {
+    "task": "physics-aware ground reaction force and joint torque prediction",
+    "input_channels": 132,
+    "hidden_channels": 256,
+    "output_channels": 24,
+    "temporal_dilations": [1, 2, 4, 8]
+  },
+  "ext_corruption_trained.pt": {
+    "task": "occlusion-robust ground reaction force and joint torque prediction",
+    "input_channels": 132,
+    "hidden_channels": 256,
+    "output_channels": 24,
+    "temporal_dilations": [1, 2, 4, 8]
+  },
+  "tcn_full_novis.pt": {
+    "task": "temporal foot contact prediction",
+    "input_channels": 132,
+    "hidden_channels": 256,
+    "output_channels": 4,
+    "temporal_dilations": [1, 2, 4, 8]
+  }
+}

@@ -1,0 +1,6 @@
+,vertical GRF RMSE (BW),ankle RMSE (N·m/kg),knee RMSE (N·m/kg),hip RMSE (N·m/kg),"force-balance error, all frames (BW)","force-balance error, unlabelled frames (BW)"
+kinematics only,0.076,0.117,0.125,0.102,0.224,0.767
++ predicted contact,0.073,0.119,0.126,0.107,0.224,0.776
++ measured contact (upper bound),0.056,0.115,0.114,0.093,0.218,0.761
++ force-balance loss,0.075,0.11,0.127,0.103,0.093,0.271
+corruption-trained,0.094,0.147,0.173,0.115,0.26,0.836
